@@ -1,6 +1,7 @@
 ##user
 ------
 1. register [POST]
+⋅⋅* Unordered sub-list. 
 ..* email           valid email                     *required
 ..* username        string, 5-12                    *required
 ..* password        string, min 5                   *required
