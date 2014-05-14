@@ -1,15 +1,15 @@
 ##user
 ------
-* register [POST]
+1. register [POST]
 ..* email           valid email                     *required
 ..* username        string, 5-12                    *required
 ..* password        string, min 5                   *required
-* login [POST]
+2. login [POST]
 ..* email / username                string          *required
 ..* password                        string          *required
-* forgot [POST]
+3. forgot [POST]
 ..* email                           string          *required
-* forgot/{hash code} [POST]
+4. forgot/{hash code} [POST]
 ..* password                        string          *required
  
  
