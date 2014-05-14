@@ -1,16 +1,16 @@
 ##user
 ------
 * register [POST]
-..* email           valid email                     *required
-..* username        string, 5-12                    *required
-..* password        string, min 5                   *required
+..- email           valid email                     *required
+..- username        string, 5-12                    *required
+..- password        string, min 5                   *required
 * login [POST]
-..* email / username                string          *required
-..* password                        string          *required
+..- email / username                string          *required
+..- password                        string          *required
 * forgot [POST]
-..* email                           string          *required
+..- email                           string          *required
 * forgot/{hash code} [POST]
-..* password                        string          *required
+..- password                        string          *required
  
  
 ##trip {header : token}
