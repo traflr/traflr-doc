@@ -1,7 +1,7 @@
 ##user
 ------
 1. register [POST]
-..* email
+..* email           valid email                     *required
 ..* username        string, 5-12                    *required
 ..* password        string, min 5                   *required
 2. login [POST]
